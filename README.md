@@ -10,7 +10,7 @@
 - [ ] Proper README.md
 - [ ] Proper Error catch on every route
 
-## Route Setup
+## Routes Setup
 
 - "./routes/cities"; - Sends: | countryCode: "BGR" | Gets: | id, name, postCode, expressCityDeliveries |
  
