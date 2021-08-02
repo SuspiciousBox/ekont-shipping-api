@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "module": "commonjs",
+    "lib": ["es2019", "esnext.asynciterable"],
+    "rootDir": ".",
+    "outDir": "./sbuild",
+    "esModuleInterop": true,
+    "strict": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "files": ["./index.ts"],
+  "include": ["./**/*.ts"]
+}
