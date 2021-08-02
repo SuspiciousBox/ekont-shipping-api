@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
-    "start": "node ts-node index.ts",
-    "start-server": "npm start"
+    "start": "ts-node index.ts",
+    "start-server": "node ts-node index.ts"
   },
   "keywords": [],
   "author": "",
