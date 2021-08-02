@@ -12,15 +12,13 @@
 
 ## Route Setup
 
- "./routes/cities"; - Sends: | countryCode: "BGR" | Gets: | id, name, postCode, expressCityDeliveries |
+- "./routes/cities"; - Sends: | countryCode: "BGR" | Gets: | id, name, postCode, expressCityDeliveries |
  
- "./routes/offices";
+- "./routes/offices";
  
- "./routes/streets";
+- "./routes/streets";
 
- "./routes/labels";
- 
-| Methods|"./routes/cities" |  "./routes/offices" | "./routes/streets" | "./routes/labels"
+- "./routes/labels";
 
 ## Heroku Dyno URL
 
