@@ -1,9 +1,12 @@
+//lib
 import express from "express";
 import cors from "cors";
+
+//Routers
 import cities from "./routes/cities";
 import offices from "./routes/offices";
 import streets from "./routes/streets";
-import lables from "./routes/lables";
+import labels from "./routes/labels";
 
 const app = express();
 
@@ -13,17 +16,18 @@ app.use((_req, res, next) => {
     next()
 })
 
+//Middlewares
 app.use(cors())
 app.use(express.json())
 
-//Routes
+//Route
 app.post("/cities", cities);
 app.post("/offices", offices);
 app.post("/streets", streets);
-app.post("/lables", lables);
+app.post("/labels", labels);
 
 
-//Server configuration
+//Server
 app.listen(3000, () => {
     console.log("Server Started on http://localhost:3000")
 });
