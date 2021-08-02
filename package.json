@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.ts",
   "scripts": {
-    "start": "nodemon ts-node index.ts",
+    "start": "node ts-node index.ts",
   },
   "keywords": [],
   "author": "",
