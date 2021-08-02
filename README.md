@@ -1,8 +1,5 @@
 # ekont-shipping-api
 
-## System Requirements
-
-
 ## Route Setup
 
 
