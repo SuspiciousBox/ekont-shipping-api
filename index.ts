@@ -8,7 +8,9 @@ import offices from "./routes/offices";
 import streets from "./routes/streets";
 import labels from "./routes/labels";
 
+const PORT = process.env.PORT || 3000;
 const app = express();
+
 
 //Authentication Header for the API call
 app.use((_req, res, next) => {
@@ -27,6 +29,6 @@ app.post("/streets", streets);
 app.post("/labels", labels);
 
 //Server
-app.listen(3000, () => {
-  console.log("Server Started on http://localhost:3000");
+app.listen(PORT, () => {
+  console.log("App listening on port ${PORT}!");
 });
