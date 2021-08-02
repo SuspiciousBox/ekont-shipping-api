@@ -4,7 +4,7 @@
 
 - .map()
 
-- Proper JSON request / response with specific data that will be used for filtering and calculation.
+- JSON request / response with specific data that will be used for filtering and calculation.
 
 - Heroku deployment
 
