@@ -2,7 +2,7 @@
 
 ## Still Under Development
 
--.map()
+- .map()
 
 - Proper JSON request / response with specific data that will be used for filtering and calculation.
 
