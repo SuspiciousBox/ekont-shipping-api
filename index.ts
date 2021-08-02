@@ -12,22 +12,21 @@ const app = express();
 
 //Authentication Header for the API call
 app.use((_req, res, next) => {
-    res.setHeader('Authentication', 'Basic aWFzcC1kZXY6aWFzcC1kZXY=')
-    next()
-})
+  res.setHeader("Authentication", "Basic aWFzcC1kZXY6aWFzcC1kZXY=");
+  next();
+});
 
 //Middlewares
-app.use(cors())
-app.use(express.json())
+app.use(cors());
+app.use(express.json());
 
-//Route
+//Routes
 app.post("/cities", cities);
 app.post("/offices", offices);
 app.post("/streets", streets);
 app.post("/labels", labels);
 
-
 //Server
-app.listen(5000, () => {
-    console.log("Server Started on http://localhost:3000")
+app.listen(3000, () => {
+  console.log("Server Started on http://localhost:3000");
 });
