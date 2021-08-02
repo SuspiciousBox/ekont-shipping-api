@@ -21,6 +21,8 @@
  "./routes/labels";
  
 | Methods|"./routes/cities" |  "./routes/offices" | "./routes/streets" | "./routes/labels"
+
 ------------ | -------------
+
 | Sends: | countryCode: "BGR" | | |
 | Gets: | id, name, postCode, expressCityDeliveries| | |
