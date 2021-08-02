@@ -1,8 +1,5 @@
 # ekont-shipping-api
 
-
-# himera88 web app nextjs
-
 ## System Requirements
 
 - Linux / macOS
