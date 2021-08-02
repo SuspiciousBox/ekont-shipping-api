@@ -10,6 +10,8 @@
 
 - Proper async/await configuration
 
+- Proper README.md
+
 ## Route Setup
 
 
