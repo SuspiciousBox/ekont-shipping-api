@@ -1,25 +1,21 @@
-import type {Request, Response} from "express";
+import type { Request, Response } from "express";
 import axios from "axios";
 
-export default async (req : Request, res : Response) => {
-    axios
-    .post('https://ee.econt.com/services/Nomenclatures/NomenclaturesService.getOffices.json', {
-        countryCode: 'BGR',
-        cityID: req.body.cityID
-      })
-      .then(response => res.json(response.data))
-      .catch(async (error) => {
-        if (error.response) {
-          // Request made and server responded
-          console.log(error.response.data);
-          console.log(error.response.status);
-          console.log(error.response.headers);
-        } else if (error.request) {
-          // The request was made but no response was received
-          console.log(error.request);
-        } else {
-          // Something happened in setting up the request that triggered an Error
-          console.log('Error', error.message);
-        }
-    });
-}
+export default async (req: Request, res: Response) => {
+  const officesRes = await axios.post(
+    "https://ee.econt.com/services/Nomenclatures/NomenclaturesService.getOffices.json",
+    {
+      countryCode: "BGR",
+      cityID: req.body.cityID,
+    }
+  );
+  const offices: Record<string, any>[] = officesRes.data.offices;
+
+  const result = offices.map(({ id, code, name, nameEn }) => ({
+    id,
+    code,
+    name,
+    nameEn,
+  }));
+  res.json(result);
+};
