@@ -5,14 +5,14 @@
 
 - [ ] Proper Calculation req,res
 - [ ] .map() - almost done
-- [ ] Heroku deployment
+- [x] Heroku deployment
 - [x] Proper async/await configuration
 - [ ] Proper README.md
 - [ ] Proper Error catch on every route
 
 ## Route Setup
 
- "./routes/cities";
+ "./routes/cities"; - Sends: | countryCode: "BGR" | Gets: | id, name, postCode, expressCityDeliveries |
  
  "./routes/offices";
  
@@ -22,7 +22,6 @@
  
 | Methods|"./routes/cities" |  "./routes/offices" | "./routes/streets" | "./routes/labels"
 
------------- | -------------
+## Heroku Dyno URL
 
-| Sends: | countryCode: "BGR" | | |
-| Gets: | id, name, postCode, expressCityDeliveries| | |
+- https://ekont-shipping-api.herokuapp.com/
