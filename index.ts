@@ -24,6 +24,6 @@ app.post("/lables", lables);
 
 
 //Server configuration
-app.listen(3000, () => {
+app.listen(3000, ekont-shipping-api.herokuapp.com () => {
     console.log("Server Started on http://localhost:3000")
 });
