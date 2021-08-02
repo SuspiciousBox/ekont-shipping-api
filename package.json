@@ -4,6 +4,7 @@
   "main": "index.ts",
   "scripts": {
     "start": "node ts-node index.ts",
+    "start-server": "npm start"
   },
   "keywords": [],
   "author": "",
