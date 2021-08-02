@@ -2,17 +2,11 @@
 
 ## Still Under Development
 
-- .map()
 
-- JSON request / response with specific data that will be used for filtering and calculation.
-
-- Heroku deployment
-
-- Proper async/await configuration
-
-- Proper README.md
+- [ ] Proper Calculation req,res
+- [ ] .map() - almost done
+- [ ] Heroku deployment
+- [x] Proper async/await configuration
+- [ ] Proper README.md
 
 ## Route Setup
-
-
-## Important Notes
