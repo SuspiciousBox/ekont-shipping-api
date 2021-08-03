@@ -19,9 +19,9 @@ export default async (req: Request, res: Response) => {
     try {
     res.json(result);
   } catch (err) {
-    console.error(err.message);
     console.log(err.response.data);
     console.log(err.response.status);
     console.log(err.response.headers);
+    console.log(err.request);
   }
 };
