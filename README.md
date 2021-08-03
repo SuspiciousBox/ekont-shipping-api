@@ -3,7 +3,7 @@
 ## Under Development
 
 
-- [ ] Proper Calculation req,res
+- [x] Calculation Reqest and Response
 - [x] .map() 
 - [x] Heroku deployment
 - [x] Proper async/await configuration
