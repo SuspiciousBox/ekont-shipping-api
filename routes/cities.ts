@@ -1,6 +1,3 @@
-import type { Request, Response } from "express";
-import axios from "axios";
-
 export default async (req: Request, res: Response) => {
   const citiesRes = await axios.post(
     "https://ee.econt.com/services/Nomenclatures/NomenclaturesService.getCities.json",
@@ -18,7 +15,7 @@ export default async (req: Request, res: Response) => {
       expressCityDeliveries,
     })
   );
- try {
+  try {
     res.json(result);
   } catch (err) {
     console.log(err.response.data);
