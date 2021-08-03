@@ -18,7 +18,7 @@
 
 - "./routes/streets"; -  Sends: | countryCode: "BGR" | Gets: | id, code, name, nameEn | id, cityID, name, nameEn |
 
-- "./routes/labels"; - Sends: | label: "Input", mode: "calculate" | Gets: | Whole Label with the shipping Price |
+- "./routes/labels"; - Sends: | label: "Input", mode: "calculate" | Gets: |  Shipping Label with the Price |
 
 ## Heroku Dyno URL
 
