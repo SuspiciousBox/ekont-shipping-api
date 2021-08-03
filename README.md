@@ -7,7 +7,7 @@
 - [x] .map() 
 - [x] Heroku deployment
 - [x] Proper async/await configuration
-- [ ] Proper README.md
+- [x] README.md
 - [x] Error catching on every route
 
 ## Routes Setup
