@@ -3,12 +3,13 @@
 ## Under Development
 
 
-- [ ] Calculation Reqest and Response
-- [x] .map() 
+- [x] Calculation Reqest and Response
+- [x] .map() for filtering the data output
 - [x] Heroku deployment
-- [x] async/await configuration
+- [x] async/await with try/catch
 - [x] README.md
-- [ ] Error catching
+- [x] Error catching
+- [ ] Additional tests on Calculation with  different values
 
 ## Routes Setup
 
