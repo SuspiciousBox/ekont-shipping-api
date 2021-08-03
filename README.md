@@ -12,7 +12,7 @@
 
 ## Routes Setup
 
-- "./routes/cities"; - Sends: | countryCode: "BGR" | Gets: | id, name, postCode, expressCityDeliveries |
+- "./routes/cities"; - Sends: | countryCode: "BGR" | Gets: | (city)ID, name, postCode, expressCityDeliveries |
  
 - "./routes/offices"; - Sends: | countryCode: "BGR" ; cityID: "input" | Gets: | id, code, name, nameEn |
 
