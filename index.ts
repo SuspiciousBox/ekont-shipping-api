@@ -1,4 +1,3 @@
-//lib
 import express from "express";
 import cors from "cors";
 
@@ -10,7 +9,6 @@ import labels from "./routes/labels";
 
 const PORT = process.env.PORT || 3000;
 const app = express();
-
 
 //Authentication Header for the API call
 app.use((_req, res, next) => {
