@@ -16,7 +16,7 @@
  
 - "./routes/offices"; - Sends: | countryCode: "BGR" ; cityID: "input" | Gets: | id, code, name, nameEn |
 
-- "./routes/streets"; -  Sends: | countryCode: "BGR" | Gets: | id, code, name, nameEn | id, cityID, name, nameEn |
+- "./routes/streets"; -  Sends: | countryCode: "BGR" ; cityID: "input" | Gets: | id, cityID , name, nameEn 
 
 - "./routes/labels"; - Sends: | label: "Input", mode: "calculate" | Gets: |  Shipping Label with the Price |
 
