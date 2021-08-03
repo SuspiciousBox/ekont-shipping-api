@@ -15,5 +15,12 @@ export default async (req: Request, res: Response) => {
   //const result = label.map(({ label }) => ({
   //label,
   //}));
-  res.json(result);
+  try {
+    res.json(labelRes.data.label);
+  } catch (err) {
+    console.log(err.response.data);
+    console.log(err.response.status);
+    console.log(err.response.headers);
+    console.log(err.request);
+  }
 };
