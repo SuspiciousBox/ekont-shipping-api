@@ -18,5 +18,12 @@ export default async (req: Request, res: Response) => {
       expressCityDeliveries,
     })
   );
-  res.json(result);
+ try {
+    res.json(result);
+  } catch (err) {
+    console.log(err.response.data);
+    console.log(err.response.status);
+    console.log(err.response.headers);
+    console.log(err.request);
+  }
 };
