@@ -17,9 +17,11 @@ export default async (req: Request, res: Response) => {
   );
   const result: Record<string, any>[] = labelRes.data.label;
 
-  //const result = label.map(({ label }) => ({
-  //label,
-  //}));
+  /*
+  const result = label.map(({ label }) => ({
+  label,
+  }));
+  */
   try {
     res.json(result);
   } catch (err) {
