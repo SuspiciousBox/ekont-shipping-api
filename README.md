@@ -21,7 +21,7 @@
 
 - "./routes/labels"; - Sends: | label: "Input", mode: "calculate" | Gets: |  Shipping Label with the Price |
 
-## Heroku Dyno URLs (https://ekont-shipping-api.herokuapp.com/)
+## Heroku Dyno URLs (https://ekont-shipping-api.herokuapp.com/)(Status:UP)
 - https://ekont-shipping-api.herokuapp.com/offices
 - https://ekont-shipping-api.herokuapp.com/cities
 - https://ekont-shipping-api.herokuapp.com/streets
