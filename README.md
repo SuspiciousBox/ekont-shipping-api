@@ -6,7 +6,7 @@
 - [ ] Calculation Reqest and Response
 - [x] .map() 
 - [x] Heroku deployment
-- [x] Proper async/await configuration
+- [x] async/await configuration
 - [x] README.md
 - [x] Error catching on every route
 
