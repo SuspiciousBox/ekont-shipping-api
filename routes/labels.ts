@@ -6,6 +6,11 @@ export default async (req: Request, res: Response) => {
     "https://ee.econt.com/services/Shipments/LabelService.createLabel.json",
     {
       label: req.body.label,
+      senderClient: req.body.senderClient,
+      senderAddress: req.body.senderAddress,
+      receiverClient: req.body.receiverClient,
+      receiverAddress: req.body.receiverAddress,
+      shipmentType: "PACK",
       weight: req.body.weight,
       mode: "calculate",
     }
