@@ -4,11 +4,11 @@
 
 
 - [ ] Proper Calculation req,res
-- [ ] .map() - almost done
+- [x] .map() 
 - [x] Heroku deployment
 - [x] Proper async/await configuration
 - [ ] Proper README.md
-- [ ] Proper Error catch on every route
+- [x] Error catching on every route
 
 ## Routes Setup
 
