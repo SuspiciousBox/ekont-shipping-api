@@ -6,6 +6,7 @@ export default async (req: Request, res: Response) => {
     "https://ee.econt.com/services/Nomenclatures/NomenclaturesService.getStreets.json",
     {
       countryCode: "BGR",
+      cityID: req.body.cityID,
     }
   );
   const streets: Record<string, any>[] = streetsRes.data.streets;
