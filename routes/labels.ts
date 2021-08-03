@@ -16,7 +16,7 @@ export default async (req: Request, res: Response) => {
   //label,
   //}));
   try {
-    res.json(labelRes.data.label);
+    res.json(result);
   } catch (err) {
     console.log(err.response.data);
     console.log(err.response.status);
